@@ -18,11 +18,11 @@ function HeroSection() {
                 sequence={[
                   'Lautaro Linari',
                   1000, 
-                  'Web Developer',
+                  'Desarrollador Web',
                   1000,
-                  'Front-End Developer',
+                  'Desarrollador Front-End',
                   1000,
-                  'UX/UI Designer',
+                  'Diseñador UX/UI',
                   1000
                 ]}
                 wrapper="span"
