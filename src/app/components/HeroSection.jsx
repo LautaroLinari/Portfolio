@@ -26,12 +26,12 @@ function HeroSection() {
                   1000
                 ]}
                 wrapper="span"
-                speed={38}
-                repeat={0}
+                speed={35}
+                repeat={3}
               />
           </h1>
           <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6'> 
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque corrupti amet quo.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos debitis vel placeat!.
           </p>
           <div> 
             {/* <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-300 via-blue-500 to-purple-700 hover:bg-slate-200 text-white'> 

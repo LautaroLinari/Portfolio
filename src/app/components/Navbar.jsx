@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import NavLink from './Navlink';
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from './MenuOverlay';
@@ -8,14 +9,14 @@ import MenuOverlay from './MenuOverlay';
 const navLinks = [
     {
         title: "Sobre Mi",
-        path: "#sobremi"
+        path: "#sobremi",
     },
     {
         title: "Proyectos",
-        path: "#proyectos"
+        path: "#proyectos",
     },    {
         title: "Contacto",
-        path: "#contact"
+        path: "#contact",
     }
 ]
 
@@ -24,9 +25,9 @@ const Navbar = () => {
 
   return (
     <nav className='fixed top-0 left-0  right-0 z-10 bg-[#121212] bg-opacity-100 '>
-        <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2 '>
-            <Link href="/" className='text-2xl md:text-5xl text-white font-semibold'>
-                LOGO
+        <div className='flex flex-wrap items-center justify-between mx-auto px-6 py-2 '>
+            <Link href="/" className='mt-2 ml-2'>
+                <Image src="/images/logo.jpg" alt='logo' className='rounded-full' width={45} height={45}/>
             </Link>
             <div className='mobile-menu block md:hidden'>
                 {!navbarOpen ? (
@@ -42,7 +43,7 @@ const Navbar = () => {
                 )}
             </div>
             <div className='menu hidden md:block md:w-auto' id='navbar'>
-                <ul className='flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0'>
+                <ul className='flex p-4 md:p-0 sm:flex-row md:space-x-10 mt-0'>
                     {
                         navLinks.map((link, index) => (
                             <li key={index}>
