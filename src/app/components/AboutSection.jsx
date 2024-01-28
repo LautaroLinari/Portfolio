@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className='list-disc pl-2 ml-3'>
+      <ul className='list-disc pl-2 ml-3 text-base md:text-lg'>
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
@@ -21,8 +21,8 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className='list-disc pl-2 ml-3'>
-        <li>Tecnicatura  en Programación - UTN San Nicolas</li>
+      <ul className='list-disc pl-2 ml-3 text-base md:text-lg'>
+        <li>Tecnicatura  en Programación - UTN San Nicolas </li>
       </ul>
     )
   },
@@ -30,8 +30,8 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className='list-disc pl-2 ml-3'>
-        <li>Diplomatura en Desarrollo Web Front-End</li>
+      <ul className='list-disc pl-2 ml-3 text-base md:text-lg'>
+        <li>Diplomatura en Desarrollo Web Front-End - UNTREF </li>
       </ul>
     ),
   },
@@ -53,14 +53,14 @@ const AboutSection = () => {
     <section className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-16 items-center py-8 px-2 xl:gap-16 sm:py-12 xl:px-10'>
         <Image src="/images/about.jpg" width={600} height={600}/>
-        <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-          <h2 className='text-4xl font-bold text-white mb-4'>Sobre Mi</h2>
-          <p className='text-base lg:text-lg'>Soy desarrollador front-end con la pasión de crear aplicaciones web de manera 
+        <div className='mt-10 md:mt-0 text-left flex flex-col h-full'>
+          <h2 className='text-2xl md:text-4xl font-bold text-white mb-4'>Sobre Mi</h2>
+          <p className='text-base md:text-lg'>Soy desarrollador front-end con la pasión de crear aplicaciones web de manera 
             interactiva y responsivas. Tengo conocimientos de JavaScript, React, Html, Css y Git.
-            Trabajo de manera rápida, siempre estoy buscando aprender y expandir mis habilidades. Estoy deseando
-            en trabajar en nuevos proyectos y crear increíbles aplicaciones web.
+            <br />Soy una persona responsable, comunicativa y que trabaja de manera rápida.
+            Estoy deseando trabajar en nuevos proyectos y crear increíbles aplicaciones web.
           </p>
-          <div className='flex flex-row justify-start mt-8'>
+          <div className='flex flex-row justify-start mt-8 text-base md:text-lg'>
             <TabButton 
             selectTab={() => handleTabChange("skills")} 
             active={tab === 'skills'}

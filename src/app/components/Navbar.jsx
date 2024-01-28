@@ -24,10 +24,10 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className='fixed top-0 left-0  right-0 z-10 bg-[#121212] bg-opacity-100 '>
-        <div className='flex flex-wrap items-center justify-between mx-auto px-6 py-2 '>
+    <nav className='fixed top-0 left-0  right-0 z-10 bg-[#222222] bg-opacity-100 '>
+        <div className='flex container flex-wrap items-center justify-between mx-auto px-4 py-2 md:py-3'>
             <Link href="/" className='mt-2 ml-2'>
-                <Image src="/images/logo.jpg" alt='logo' className='rounded-full' width={45} height={45}/>
+                <Image src="/images/logo.jpg" alt='logo' className='rounded-full' width={55} height={55}/>
             </Link>
             <div className='mobile-menu block md:hidden'>
                 {!navbarOpen ? (
@@ -47,7 +47,7 @@ const Navbar = () => {
                     {
                         navLinks.map((link, index) => (
                             <li key={index}>
-                               <NavLink href={link.path} title={link.title} /> 
+                               <NavLink href={link.path} title={link.title}/> 
                             </li>
                         ))
                     }

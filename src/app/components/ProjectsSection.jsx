@@ -47,7 +47,7 @@ const projectsData = [
 const ProjectsSection = () => {
   return (
     <>
-      <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
+      <h2 className='text-center text-2xl md:text-4xl font-bold text-white mt-10 mb-8 md:mb-12' id='proyectos'>
             Mis Proyectos
         </h2>
       <div className='grid md:grid-cols-2 gap-8 md:gap-12'>
@@ -58,7 +58,7 @@ const ProjectsSection = () => {
                 description={project.description} 
                 imgUrl={project.image} 
                 gitUrl={project.gitUrl}
-                previewUrl={project.previewUrl}
+                previewUrl={project.previewUrl} 
             />
         ))}
       </div>

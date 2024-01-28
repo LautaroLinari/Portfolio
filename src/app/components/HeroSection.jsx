@@ -9,7 +9,7 @@ function HeroSection() {
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
-          <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold '>
+          <h1 className='text-white mb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold '>
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500'> 
               Hola, soy {" "} 
             </span>
@@ -30,15 +30,15 @@ function HeroSection() {
                 repeat={3}
               />
           </h1>
-          <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6'> 
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos debitis vel placeat!.
+          <p className='text-[#ADB7BE] text-lg md:text-xl mb-6'> 
+          Siempre estoy buscando aprender y expandir mis habilidades como desarrollador.
           </p>
           <div> 
             {/* <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-300 via-blue-500 to-purple-700 hover:bg-slate-200 text-white'> 
               Contactame 
             </button>  */}
-            <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-cyan-300 via-blue-500 to-purple-700 hover:bg-slate-800 text-white mt-3'> 
-              <span className='block bg-[#121212] hover-slate-800 rounded-full px-5 py-2'> Descargar CV  </span>
+            <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-cyan-300 via-blue-500 to-purple-700 text-white mt-3'> 
+              <span className='block bg-[#121212] hover:bg-gradient-to-br from-cyan-300 via-blue-500 to-purple-700 hover:text-white rounded-full px-5 py-2 text-base md:text-lg'> Descargar CV  </span>
             </button> 
 
           </div>
