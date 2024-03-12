@@ -37,7 +37,7 @@ const ProjectsCard = ({ imgUrl, title, description, gitUrl, previewUrl, tecnolog
         <div className='text-white rounded-b-xl mt-0 bg-[#181818] py-6 px-4'>
             <h5 className='text-lg md:text-xl font-semibold mb-3 '> { title } </h5>
             <p className='text-[#ADB7BE] text-base md:text-lg mb-3'> { description } </p>
-            <div className='flex gap-7'>
+            <div className='flex gap-5 flex-wrap md:flex-nowrap'>
                 {tecnology.map((tech, item) => (
                     <Technologies key={item} name={tech} />
                 ))}
@@ -45,6 +45,6 @@ const ProjectsCard = ({ imgUrl, title, description, gitUrl, previewUrl, tecnolog
         </div>
     </div>
   )
-}
+}   
 
 export default ProjectsCard
