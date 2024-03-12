@@ -40,8 +40,8 @@ const projectsData = [
         previewUrl: 'https://proyecto-integrador-web-untrefschool.vercel.app/',
         tecnology: [
             <FaHtml5 />, 
-            <IoLogoJavascript />,
             <SiTailwindcss />,
+            <IoLogoJavascript />,
         ]
     },
     {
@@ -65,9 +65,9 @@ const projectsData = [
         gitUrl: 'https://github.com/LautaroLinari/Proyecto-Final-React',
         previewUrl: 'https://proyecto-final-react-xi-rosy.vercel.app/',
         tecnology: [
-            <FaHtml5 />, 
+            <FaHtml5 />,
+            <SiTailwindcss />, 
             <IoLogoJavascript />,
-            <SiTailwindcss />,
             <FaReact />
         ]
     },
@@ -80,8 +80,8 @@ const projectsData = [
         previewUrl: '',
         tecnology: [
             <FaHtml5 />, 
-            <IoLogoJavascript />,
             <SiTailwindcss />,
+            <IoLogoJavascript />,
             <FaReact />,
             <TbBrandNextjs />
         ]

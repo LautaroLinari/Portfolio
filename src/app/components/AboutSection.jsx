@@ -52,7 +52,7 @@ const AboutSection = () => {
 
     <section className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-16 items-center py-8 px-2 xl:gap-16 sm:py-12 xl:px-10'>
-        <Image src="/images/about.jpg" width={600} height={600}/>
+        <Image src="/images/about.jpg" className='w-auto h-auto' alt='about-imagen'  width={600} height={600}/>
         <div className='mt-10 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-2xl md:text-4xl font-bold text-white mb-4'>Sobre Mi</h2>
           <p className='text-base md:text-lg'>Soy desarrollador front-end con la pasión de crear aplicaciones web de manera 

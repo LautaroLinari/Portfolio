@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className='fixed top-0 left-0  right-0 z-10 bg-[#222222] bg-opacity-100 '>
         <div className='flex container flex-wrap items-center justify-between mx-auto px-4 py-2 md:py-3'>
             <Link href="/" className='mt-2 ml-2'>
-                <Image src="/images/logo.jpg" alt='logo' className='rounded-full' width={55} height={55}/>
+                <Image src="/images/logo.jpg" alt='logo' className='rounded-full w-auto h-auto' width={55} height={55}/>
             </Link>
             <div className='mobile-menu block md:hidden'>
                 {!navbarOpen ? (
