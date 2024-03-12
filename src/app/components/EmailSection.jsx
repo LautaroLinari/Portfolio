@@ -1,10 +1,8 @@
 "use client";
 import React from 'react';
 import { useState } from 'react';
-import GithubIcon from '../../../public/icons/github.png';
-import LinkedinIcon from '../../../public/icons/linkedin.png';
+import { FaGithub , FaLinkedin } from "react-icons/fa";
 import Link from 'next/link';
-import Image from 'next/image';
 
 const EmailSection = () => {
 
@@ -53,12 +51,12 @@ const EmailSection = () => {
             Si tienes alguna pregunta o simplemente quieres saludar.
             ¡Con gusto te responderé! 
             </p>
-            <div className='socials flex flex-row gap-4'>
-                <Link href='https://github.com/LautaroLinari' target="_blank" rel="noopener noreferrer">
-                    <Image src={GithubIcon} alt='Github Icon' width={32} height={32} ></Image>
+            <div className='socials flex flex-row gap-5 text-5xl'>
+                <Link href='https://github.com/LautaroLinari' target="_blank" rel="noopener noreferrer" className='background-animate bg-gradient-to-r from-black to to-gray-200 rounded-full'>
+                    <FaGithub />
                 </Link>
-                <Link href='https://www.linkedin.com/in/lautaro-linari-9a3542239/' target="_blank" rel="noopener noreferrer">
-                    <Image src={LinkedinIcon} alt='Linkedin Icon' width={32} height={32} ></Image>
+                <Link href='https://www.linkedin.com/in/lautaro-linari-9a3542239/' target="_blank" rel="noopener noreferrer" className='background-animate bg-gradient-to-r from-gray-600 to to-blue-600 rounded-lg'>
+                    <FaLinkedin />
                 </Link>
             </div>
         </div>  

@@ -47,3 +47,4 @@ TailWind:
 
 React:
 -react-type-animation
+-react-icons
