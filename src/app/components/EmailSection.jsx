@@ -105,7 +105,6 @@ const EmailSection = () => {
                             Enviar Mensaje
                         </button>
                         {
-                            //If email was submitted successfully, show a success message.
                             emailSubmitted && (
                                 <p className='text-green-500 text-lg mt-2'>
                                     Email enviado exitosamente!
