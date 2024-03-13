@@ -1,7 +1,7 @@
 import React from 'react'
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import Technologies from './Technologies';
+import Technologies from './Technologies.jsx';
 
 
 
