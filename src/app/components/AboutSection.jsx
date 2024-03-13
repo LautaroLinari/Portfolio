@@ -57,8 +57,8 @@ const AboutSection = () => {
         <Image src="/images/about.jpg" className='w-auto h-auto' alt='about-imagen'  width={600} height={600}/>
         <div className='mt-10 md:mt-0 text-left flex flex-col h-full'>
           <h2 className='text-2xl md:text-4xl font-bold text-white mb-4'>Sobre Mi</h2>
-          <p className='text-base md:text-lg'>Soy desarrollador front-end con la pasión de crear aplicaciones web de manera 
-            interactiva y responsivas. Tengo conocimientos de JavaScript, React, Html, Css y Git.
+          <p className='text-base md:text-lg'>Soy desarrollador web front-end con la pasión de crear aplicaciones web de manera 
+            interactiva y responsivas. Tengo conocimientos de JavaScript, React, Html, Css (Sass, TailWind) y Git.
             <br />Soy una persona responsable, comunicativa y que trabaja de manera rápida.
             Estoy deseando trabajar en nuevos proyectos y crear increíbles aplicaciones web.
           </p>
