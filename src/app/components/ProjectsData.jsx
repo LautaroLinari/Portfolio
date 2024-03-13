@@ -20,9 +20,9 @@ const projectsData = [
     },
     {
         id: 2,
-        title: 'Portfolio Website',
+        title: 'Portfolio Web Practice',
         description: 'Proyecto Portfolio: Ejercicio de practica aprendiendo conocimientos básicos de Sass.',
-        image: '/images/projects/project-2.jpg',
+        image: '/images/projects/projecto-2.jpg',
         gitUrl: 'https://github.com/LautaroLinari/Pracitca-Sass',
         previewUrl: 'https://practica-sass.vercel.app/',
         tecnology: [
@@ -34,8 +34,8 @@ const projectsData = [
     {
         id: 3,
         title: 'Landing Page Website',
-        description: 'Proyecto Landing Page: Website de una escuela/universidad.',
-        image: "/images/projects/project-3.jpg",
+        description: 'Proyecto Landing Page: Website de practica donde se visualizan los datos de una escuela primaria.',
+        image: "/images/projects/projecto-3.png",
         gitUrl: 'https://github.com/LautaroLinari/PROYECTO-INTEGRADOR-WEB-UNTREFSCHOOL',
         previewUrl: 'https://proyecto-integrador-web-untrefschool.vercel.app/',
         tecnology: [
@@ -47,8 +47,8 @@ const projectsData = [
     {
         id: 4,
         title: 'E-commerce Website',
-        description: 'Proyecto E-commerce: Es una tienda online de zapatillas de basketball.',
-        image: '/images/projects/project-4.jpg',
+        description: 'Proyecto E-commerce: Representa una tienda online donde puedes comprar zapatillas de basketball.',
+        image: '/images/projects/projecto-4.png',
         gitUrl: 'https://github.com/LautaroLinari/ProyectoEcommerce',
         previewUrl: 'https://proyecto-ecommerce-beta.vercel.app/',
         tecnology: [
@@ -61,7 +61,7 @@ const projectsData = [
         id: 5,
         title: 'Cotizador Seguros Website',
         description: 'Proyecto Cotizador de Seguros: Se utiliza para obtener el valor del seguro según las medidas, año de construcción de tu hogar.',
-        image: '/images/projects/project-5.jpg',
+        image: '/images/projects/projecto-5.png',
         gitUrl: 'https://github.com/LautaroLinari/Proyecto-Final-React',
         previewUrl: 'https://proyecto-final-react-xi-rosy.vercel.app/',
         tecnology: [

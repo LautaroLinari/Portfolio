@@ -12,6 +12,8 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
+        <li>Sass</li>
+        <li>TailWind</li>
         <li>GitHub</li>
         <li>React</li>
       </ul>

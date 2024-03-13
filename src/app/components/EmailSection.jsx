@@ -101,7 +101,7 @@ const EmailSection = () => {
                     placeholder='Vamos a hablar acerca de...'
                     />
                     <div>
-                        <button className='bg-purple-700 hover:bg-purple-500 text-white text-base md:text-lg font-bold py-2.5 px-5 rounded-lg w-full mt-5' type='submit' rel="noopener noreferrer">
+                        <button className='bg-purple-700 hover:bg-purple-500 border border-purple-700 hover:border-white text-white text-base md:text-lg font-bold py-2.5 px-5 rounded-lg w-full mt-5 ' type='submit' rel="noopener noreferrer">
                             Enviar Mensaje
                         </button>
                         {
