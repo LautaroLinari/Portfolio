@@ -75,9 +75,9 @@ const projectsData = [
         id: 6,
         title: 'Porfolio Web',
         description: 'Proyecto Portfolio Personal: Se exponen todos los proyectos realizados, información personal, estudios realizados y un formulario de contacto.',
-        image: '',
-        gitUrl: '',
-        previewUrl: '',
+        image: '/images/projects/project-6.png',
+        gitUrl: 'https://github.com/LautaroLinari/Portfolio',
+        previewUrl: 'https://portfolio-rho-vert-90.vercel.app/',
         tecnology: [
             <FaHtml5 />, 
             <SiTailwindcss />,
